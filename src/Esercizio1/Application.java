@@ -53,7 +53,7 @@ public class Application {
 							throw new NumeroTraZeroEDieci("Devi inserire un valore compreso tra 1 e 10");
 						} else {
 
-							numeriCasuali[0] = numero1;
+							numeriCasuali[1] = numero1;
 						}
 
 					} catch (NumeroTraZeroEDieci e) {
@@ -73,7 +73,7 @@ public class Application {
 							throw new NumeroTraZeroEDieci("Devi inserire un valore compreso tra 1 e 10");
 						} else {
 
-							numeriCasuali[0] = numero2;
+							numeriCasuali[2] = numero2;
 						}
 
 					} catch (NumeroTraZeroEDieci e) {
@@ -93,7 +93,7 @@ public class Application {
 							throw new NumeroTraZeroEDieci("Devi inserire un valore compreso tra 1 e 10");
 						} else {
 
-							numeriCasuali[0] = numero3;
+							numeriCasuali[3] = numero3;
 						}
 
 					} catch (NumeroTraZeroEDieci e) {
@@ -113,7 +113,7 @@ public class Application {
 							throw new NumeroTraZeroEDieci("Devi inserire un valore compreso tra 1 e 10");
 						} else {
 
-							numeriCasuali[0] = numero4;
+							numeriCasuali[4] = numero4;
 						}
 
 					} catch (NumeroTraZeroEDieci e) {
@@ -134,9 +134,9 @@ public class Application {
 			} else {
 				exit = 0;
 			}
-			scanner.close();
 
 		}
+		scanner.close();
 
 	}
 }

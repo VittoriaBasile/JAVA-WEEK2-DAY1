@@ -18,7 +18,11 @@ public class Application2 {
 
 		} catch (ArithmeticException e) {
 			System.out.println("puoi inserire solo numeri positivi");
+		} finally {
+			scanner.close();
+
 		}
+
 	}
 
 	public static int kmPerLitro(int km, int litri) {
