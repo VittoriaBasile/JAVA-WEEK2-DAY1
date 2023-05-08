@@ -1,16 +1,19 @@
 package Esercizio1;
 
 import java.util.Arrays;
+import java.util.Random;
 //import java.util.Random;
 import java.util.Scanner;
 
 public class Application {
 
 	public static void main(String[] args) {
-		// Random r = new Random();
-
+		Random r = new Random();
 		int[] numeriCasuali = new int[5];
 
+		for (int i = 0; i < numeriCasuali.length; i++) {
+			numeriCasuali[i] = r.nextInt(10);
+		}
 		Scanner scanner = new Scanner(System.in);
 		int exit = -1;
 		while (exit != 0) {
